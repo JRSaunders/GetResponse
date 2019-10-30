@@ -15,7 +15,7 @@ Create a Contact:
 ```
 $gr = new \GetResponse\GetResponse('MyAPIkey','my360domain.com','iR');
 
-$newContact = ( new \GetResponse\Contact() )->setName( 'John Smith' )->setEmail( 'john@smith.com' );
+$newContact = ( new \GetResponse\ValueObject\Contact() )->setName( 'John Smith' )->setEmail( 'john@smith.com' );
 
 $gr->getContacts()->createByContact( $newContact );
 ```
