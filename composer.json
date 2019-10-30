@@ -1,0 +1,20 @@
+{
+  "name": "jrsaunders/get-response",
+  "description": "Get Response API",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "John Saunders",
+      "email": "john@yettimedia.co.uk"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "GetResponse\\": "src/"
+    }
+  }
+}
